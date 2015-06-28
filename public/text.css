@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+	font-family: Arial;
+}
+.header{
+	background: linear-gradient(to bottom, rgb(41,94,137) 0%,rgb(60,129,165) 40%,rgb(73,155,189) 71%,rgb(41,94,137) 100%);
+	height: 20vh;
+}
+.logo{
+	width: 145px;
+	height: 75px;
+	font-size: 0px;
+	position: absolute;
+
+}
+.logo-image img{
+	width: 200px;
+  height: 20vh;
+	
+}
+.social-toolbar{
+	position: absolute;
+	right: 30px;
+	top: 30px;
+}
+.st{
+	display: inline-block;
+}
+.st img{
+	width: 40px;
+	height: 40px;
+}
+.banner-box{
+	width: 80%;
+	margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.5;
+}
+.banner img{
+	height:40vh;
+	width: 100%
+	
+}
+#accord {
+  background-image: url(Assets/accord.png);
+  background-size: 100%;
+}
+#jellybeans #civic {
+  background-image: url(Assets/civic.png);
+  background-size: 100%;
+}
+#jellybeans #crv {
+  background-image: url(Assets/crv.png);
+  background-size: 100%;
+}
+#jellybeans .jellybean {
+  width: 32%;
+  height: 210px;
+  background-position: 0 0;
+  float: left;
+  margin-left: 5px;
+}
+.body #jellybeans div {
+  display: block;
+}
+#jellybeans .jellybean a {
+  display: block;
+  width: 100%;
+  height: 210px;
+}
+.footer{
+	background: linear-gradient(to bottom, rgb(41,94,137) 0%,rgb(60,129,165) 40%,rgb(73,155,189) 71%,rgb(41,94,137) 100%);
+	height: 20vh;
+	margin-top:215px;	
+	padding: 30px 10px 10px 50px;
+	position: relative;
+	color: rgb(187,180,174);
+	font-size: 13px;
+}
+.footer span{
+	display: block;
+}
+.footer-data{
+	position: relative;
+	left: 80%;
+}
+
+
+
+

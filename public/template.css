@@ -1,0 +1,141 @@
+*{
+	font-family: 'Droid Sans', sans-serif;
+}
+.car-box{
+	width: 80%;
+	height: 202px;
+	margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.5;
+}
+.ib {
+	display: inline-block;
+}
+.car-box{
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.car-data{
+	font-size: 28px;
+	font-weight: bold;
+}
+.car-count{
+	font-size: 18px;
+	margin-left: 20px;
+}
+.msrp{
+	text-align: center;
+	font-weight: bold;
+}
+.msrp img{
+	height: 40px;
+	width: 40px;
+}
+.accord .car-box[data-car="Sedan"] .pic-box{
+ 	
+ 	width: 350px;
+ 	height: 198px;
+ 	
+}
+.accord .car-box[data-car="Sedan"] .pic-box .pic{
+	background-image: url(Assets/accordSedan.png);
+	background-size: 100%;
+	height: 100%;
+	width: 100%
+}
+.accord .car-box[data-car="Coupe"] .pic-box{
+ 	
+ 	width: 350px;
+ 	height: 198px;
+ 	
+}
+.accord .car-box[data-car="Coupe"] .pic-box .pic{
+	background-image: url(Assets/accordCoupe.png);
+	background-size: 100%;
+	height: 100%;
+	width: 100%
+}
+.accord .car-box[data-car="Hybrid"] .pic-box{
+ 	
+ 	width: 350px;
+ 	height: 198px;
+ 	
+}
+.accord .car-box[data-car="Hybrid"] .pic-box .pic{
+	background-image: url(Assets/accordHybrid.png);
+	background-size: 100%;
+	height: 100%;
+	width: 100%
+}
+.civic .car-box[data-car="Sedan"] .pic-box{
+ 	
+ 	width: 350px;
+ 	height: 198px;
+ 	
+}
+.civic .car-box[data-car="Sedan"] .pic-box .pic{
+	background-image: url(Assets/civicSedan.png);
+	background-size: 100%;
+	height: 100%;
+	width: 100%
+}
+.civic .car-box[data-car="Coupe"] .pic-box{
+ 	
+ 	width: 350px;
+ 	height: 198px;
+ 	
+}
+.civic .car-box[data-car="Coupe"] .pic-box .pic{
+	background-image: url(Assets/civicCoupe.png);
+	background-size: 100%;
+	height: 100%;
+	width: 100%
+}
+.civic .car-box[data-car="Hybrid"] .pic-box{
+ 	
+ 	width: 350px;
+ 	height: 198px;
+ 	
+}
+.civic .car-box[data-car="Hybrid"] .pic-box .pic{
+	background-image: url(Assets/civicHybrid.png);
+	background-size: 100%;
+	height: 100%;
+	width: 100%
+}
+.suv .car-box[data-car="CR-V"] .pic-box{
+ 	
+ 	width: 350px;
+ 	height: 198px;
+ 	
+}
+.suv .car-box[data-car="CR-V"] .pic-box .pic{
+	background-image: url(Assets/crv1.png);
+	background-size: 100%;
+	height: 100%;
+	width: 100%
+}
+.suv .car-box[data-car="Pilot"] .pic-box{
+ 	
+ 	width: 350px;
+ 	height: 198px;
+ 	
+}
+.suv .car-box[data-car="Pilot"] .pic-box .pic{
+	background-image: url(Assets/pilot.png);
+	background-size: 100%;
+	height: 100%;
+	width: 100%
+}
+.suv .car-box[data-car="HR-V"] .pic-box{
+ 	
+ 	width: 350px;
+ 	height: 198px;
+ 	
+}
+.suv .car-box[data-car="HR-V"] .pic-box .pic{
+	background-image: url(Assets/hrv.png);
+	background-size: 100%;
+	height: 100%;
+	width: 100%
+}

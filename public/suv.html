@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" href="text.css"/>
+  <link rel="stylesheet"  href="template.css">
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <template id="suv-template">
+    {{#each this}}
+    <div class="car-box" data-car="{{body}}">
+      <div class="ib pic-box"><div class="pic"></div></div>
+      <div class="ib car-count">
+        <div class= "car-data">
+          <div class="ib year">{{year}}</div>
+          <div class="ib make"> {{make}}</div>
+          <div class="ib body"> {{body}}</div>
+        </div>
+        <div class="price">Starting MSRP: {{price}}</div>
+        <div class="quantity">Quantity: {{quantity}}</div>
+        <div class="acceptancePercentage">Overall acceptance: {{acceptancePercentage}}%</div>
+        <div class="msrp">
+            <div class="ib city"><br>City</br>{{msrp.city}}</div> 
+            <div class="ib gas-pump"><img src="Assets/gasPump.png"></div>           
+            <div class="ib highway"><br>HWY</br>{{msrp.highway}}</div>
+        </div>
+      </div>
+    </div>
+    {{/each}}
+  </template>
+  <div class="container">
+    <div class="header">
+      <div class="logo"><div class="logo-image"> <a href="test.html"><img src="Assets/logo1.png"></a></img></div></div>
+      <div class="social-toolbar">
+        <div class="st fb"><a href="http://facebook.com" target="_blank"><img src="Assets/fb.png"></a></div>
+        <div class="st twitter"><a href="http://twitter.com" target="_blank"><img src="Assets/twitter.png"></a></div>
+        <div class="st google"><a href="http://facebook.com" target="_blank"><img src="Assets/google.png"></a></div>
+      </div>
+    </div>
+    <div class="banner-box"><div class="banner"><img src="Assets/banner.png"></div></div>
+    <div class="suv"></div>
+    <div class="footer"> Contact Us
+      <span> 3506 Highland Avenue</span>
+      <span> Height, VM 30476</span>
+      <span> (918) 272 - 3457</span>
+      <div class="footer-data">© 2015 | Claudia Calzadillas</div>
+    </div>
+  </div>
+<script src="libs/jquery.js"></script>
+<script src="libs/handlebars.js"></script>
+<script src="libs/underscore.js"></script>
+<script src="index.js"></script>
+<script src="suv.js"></script>
+
+</body>
+</html>
